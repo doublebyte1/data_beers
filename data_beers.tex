@@ -73,7 +73,7 @@
 %\tableofcontents%}
 %\end{frame}
 
-\section{Background} 
+%\section{Background} 
 \begin{frame}
 \frametitle{Why we \textit{love} Twitter}
 %TODO
@@ -109,6 +109,7 @@
 \end{frame}
 
 \begin{frame}
+%TODO: SEPARATE IN TWO SLIDES?
 \frametitle{Motivation}
 \begin{columns}
   \begin{column}{0.5\textwidth}\small{ 
@@ -126,14 +127,15 @@
 \end{columns}
 \end{frame}
 
+
 \section{Finding Patterns} 
 \begin{frame}
 \frametitle{Clustering}
 \begin{columns}
   \begin{column}{0.5\textwidth}\small{ 
     \begin{itemize}
-      \item<1->Widely used due to its segmentation and summarization features.
-      \item<2->Unsupervised, descriptive, method.
+      \item<1->Unsupervised, descriptive, method.    
+      \item<2->Widely used due to its segmentation and summarization features.
       \item<3->Identifies groups of objects, which are similar between them, and distinct from the rest.
       %\item<3->It can be considered a concise model of the data, which can be interpreted in the sense of either a summary or a generative model 
       \end{itemize}  }
@@ -190,6 +192,15 @@
 % larger clusters that include a great part of the points, but it fails to expose the details of the highly dense zones, in the centre of the city; i.e.: we know that people gather in the city centre, but do they distribute uniformly within it, or concentrate more in certain areas such as squares or pedestrian roads? On the other hand, the “more strict” combination detects these zones, but leaves out other “potential” clusters that are less dense, in the city outskirts. 
 %trade-off between detail and completness
 
+\begin{frame}
+\frametitle{The Bottleneck: Global Parameters (cont.)}
+\begin{itemize}
+      \item<2->Larger epsilon, lower minpts: larger clusters that include a great part of the points, but it fails to expose the details of the highly dense zones in the city centre.
+      \item<3->Lower epsilon, larger minpts: detects these highly dense zones, but leaves out other \textit{potential} clusters that are less dense, in the city outskirts.
+\end{itemize}                
+\end{frame}
+
+
 %the fail to identify meaningful clusters in areas of varying density. A
 \begin{frame}
 \frametitle{OPTICS}
@@ -199,17 +210,28 @@
 %This is represented in a diagram plotting this ordering and a special distance that is stored for each point, representing the density that needs to be accepted for a cluster in order to have both points belong to the same cluster.      
       \item<4->It does \textbf{not} produce a strict partition of the data.%, but it is possible to generate a clustering structure from the OPTICS output using another algorithm.     
 \end{itemize}                
+%  \begin{figure}   
+%    \includegraphics[width=0.55\textwidth]{optics_diag.png}   
+%  \end{figure}     
+\end{frame}
+
+\begin{frame}
+\frametitle{OPTICS (cont.)}
+\begin{itemize}
+      \item<2->In the ordering clusters appear as \textit{valleys}, separated by \textit{noise regions}(peaks). 
+\end{itemize}                
   \begin{figure}   
-    \includegraphics[width=0.55\textwidth]{optics_diag.png}   
+    \includegraphics[width=0.4\textwidth]{dendrogram.png}   
   \end{figure}     
 \end{frame}
+
 
 \begin{frame}
 \frametitle{Opticsxi: detecting Clusters}
 \begin{itemize}
-      \item<2->In the ordering clusters appear as \textit{valleys}, separated by \textit{noise regions}(peaks). 
-      \item<3->We can define the \textit{start} and \textit{end} of a cluster, based on a threshold (xi).%Since "outer" clusters contain clusters with smaller reachability distances, The results of this partition will be hierarchical
-      \item<4->Hierarchical partition.%more difficult to interpret, but it reveals something about teir structure.
+      %\item<2->In the ordering clusters appear as \textit{valleys}, separated by \textit{noise regions}(peaks). 
+      \item<2->We can define the \textit{start} and \textit{end} of a cluster, based on a threshold (xi).%Since "outer" clusters contain clusters with smaller reachability distances, The results of this partition will be hierarchical
+      \item<3->Hierarchical partition.%more difficult to interpret, but it reveals something about teir structure.
 \end{itemize}                
   \begin{figure}   
     \includegraphics[width=0.5\textwidth]{2000_025_100_w_removal.png}   
@@ -224,15 +246,29 @@
     \begin{itemize}
       \item<1->Visualization is a key element to understand and interpret the results of data mining.%. In the case of a geospatial algorithm, it is particularly relevant to plot the results in a representation of the geographic space; i.e.: 
       \item<2->What about Geospatial information...?
-      \item<3->WorldWind is an Open Source virtual globe developed by NASA that accesses a number of remote sensing datasets.%, including the Blue Marble Next Generation imagery, apart from other georeferenced images and geographic features served over the internet 
+      %\item<3->WorldWind is an Open Source virtual globe developed by NASA that accesses a number of remote sensing datasets.%, including the Blue Marble Next Generation imagery, apart from other georeferenced images and geographic features served over the internet 
+      %\begin{itemize}
+	%  \item<3->OpenGL.%hardware accelerated rendering
+       %\end{itemize}
+      \item<3->\begin{figure}  
+	\includegraphics[width=0.7\textwidth]{gis.PNG}
+       \end{figure}  
+    \end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{NASA WW}
+    \begin{itemize}
+      \item<1->WorldWind is an Open Source virtual globe developed by NASA that accesses a number of remote sensing datasets.%, including the Blue Marble Next Generation imagery, apart from other georeferenced images and geographic features served over the internet 
       \begin{itemize}
-	  \item<3->OpenGL.%hardware accelerated rendering
+	  \item<2->OpenGL.%hardware accelerated rendering
        \end{itemize}
       \end{itemize}
       \begin{figure}  
 	\includegraphics[width=0.7\textwidth]{bluemarble.png}
        \end{figure}  
 \end{frame}
+
 
 \begin{frame}
 \frametitle{Cluster Explorer}
@@ -281,7 +317,14 @@
 \end{frame}
 
 \begin{frame}
-\frametitle{GIS and the value of Location-Analysis}
+\frametitle{GIS and the value of Location-Analysis (cont.)}
+  \begin{figure}   
+    \includegraphics[width=0.7\textwidth]{250_035_11_w_p_catalunyal.png}   
+  \end{figure}     
+\end{frame}
+
+\begin{frame}
+\frametitle{GIS and the value of Location-Analysis (cont.)}
 %Plaza de Catalunya cluster. We identified that people gather in plaza catalunya, but since we are given an hierarchical structure, we can go further in our analysis and identify in which particular areas of Plaza Catalunya they concentrate more.
 %Triangle - FNAC shop
 %“Font de Canaletes”/Metro
@@ -292,6 +335,17 @@
   \end{figure}     
 \end{frame}
 
+\begin{frame}
+\frametitle{GIS and the value of Location-Analysis (cont.)}
+    Identified clusters (hierarchical level):
+    \begin{itemize}    
+      \item<1->Plaza de Catalunya cluster (L1)
+      \item<1->Triangle Shopping Centre (L2)
+      \item<1->FNAC shop (L3)
+      \item<1->Hard rock cafe (L2)
+      \item<1->Central gardens (L2)
+    \end{itemize}
+\end{frame}
 
 \section{Conclusions}
 \begin{frame}
@@ -308,11 +362,11 @@
 \end{frame}
 
 \begin{frame}
-\frametitle{Thank You!}
+\frametitle{Thank You for Listening!}
     \begin{figure}   
-      \includegraphics[width=0.4\textwidth]{thanks.jpg}      
+      \includegraphics[width=0.6\textwidth]{end.jpg}      
     \end{figure}   
-    This presentation is available at: \centering{\\ \url{http://tinyurl.com/kclm6k9}\\}
+    This presentation is available at: \centering{\\ \url{http://tinyurl.com/nd29g3f}\\}
       \vspace{5mm}    
 \end{frame}
 
