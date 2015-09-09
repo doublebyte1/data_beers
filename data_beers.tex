@@ -19,11 +19,17 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \definecolor{dred}{rgb}{0.647059, 0.164706, 0.164706}
 \definecolor{dgreen}{rgb}{0., 0.545098, 0.545098}
-\usecolortheme[named=dred]{structure}
+%\usecolortheme[named=dred]{structure}
 
-\title{Visualizing Geolocated Tweets}
-\subtitle{A Spatial Data Mining Approach}
-\author{Joana Sim\~{o}es} 
+%\usetheme{Marburg}
+%\usecolortheme{crane}
+
+\usetheme{Antibes}
+\usecolortheme{dolphin}
+
+\title[Visualizing Tweets]{Visualizing Geolocated Tweets}
+\subtitle[Spatial Data Mining]{A Spatial Data Mining Approach}
+\author[JS]{Joana Sim\~{o}es} 
 
 \author[shortname]{Joana Sim\~{o}es \inst{1}}
 \institute[shortinst]{\inst{1} Eurecat, Centre Tecnologic de Catalunya}
@@ -109,14 +115,13 @@
 \end{frame}
 
 \begin{frame}
-%TODO: SEPARATE IN TWO SLIDES?
 \frametitle{Motivation}
 \begin{columns}
   \begin{column}{0.5\textwidth}\small{ 
       How to assimilate these large datasets and extract some relevant information?
       \begin{itemize}    
-	    \item<2->Technological Challenge + \textbf{Representation Challenge}.
-	    \item<3->Machine Learning, GIS.      
+	    \item<2->Technological Challenge + \textbf{Representation Challenge}
+	    \item<3->Data mining/ Machine Learning      
       \end{itemize}                }
   \end{column}
   \begin{column}{0.5\textwidth}      
@@ -126,7 +131,6 @@
   \end{column}  
 \end{columns}
 \end{frame}
-
 
 \section{Finding Patterns} 
 \begin{frame}
@@ -342,6 +346,7 @@
       \item<1->Plaza de Catalunya cluster (L1)
       \item<1->Triangle Shopping Centre (L2)
       \item<1->FNAC shop (L3)
+      \item<1->Font de Canaletes/Metro (L2)
       \item<1->Hard rock cafe (L2)
       \item<1->Central gardens (L2)
     \end{itemize}

@@ -1,4 +1,4 @@
 pdflatex data_beers
 pdflatex data_beers
-impressive data_beers.pdf
+impressive -a 20 data_beers.pdf
 
