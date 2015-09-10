@@ -1,5 +1,5 @@
 \beamer@endinputifotherversion {3.33pt}
-\beamer@sectionintoc {1}{Finding Patterns}{11}{0}{1}
-\beamer@sectionintoc {2}{Showing Patterns}{32}{0}{2}
-\beamer@sectionintoc {3}{Putting it All Together}{40}{0}{3}
-\beamer@sectionintoc {4}{Conclusions}{44}{0}{4}
+\beamer@sectionintoc {1}{Finding Patterns}{5}{0}{1}
+\beamer@sectionintoc {2}{Showing Patterns}{11}{0}{2}
+\beamer@sectionintoc {3}{Putting it All Together}{14}{0}{3}
+\beamer@sectionintoc {4}{Conclusions}{18}{0}{4}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2015.6.2)  9 SEP 2015 10:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2015.6.2)  10 SEP 2015 13:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -696,7 +696,12 @@ Package: beamerinnerthemedefault 2013/10/15  (rcs-revision 65cb471f9634)
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/themes/outer/beamerouterthemede
 fault.sty
 Package: beamerouterthemedefault 2012/12/19  (rcs-revision 1686da3db3c9)
-))) (/usr/share/texmf/tex/latex/lm/lmodern.sty
+)))
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/multimedia/multimedia.sty
+Package: multimedia 2012/05/02 ver 0.02
+\mm@movie=\count153
+)
+(/usr/share/texmf/tex/latex/lm/lmodern.sty
 Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
@@ -775,23 +780,23 @@ Package: beamerouterthemesplit 2012/10/16  (rcs-revision 51a8c72084af)
 cturebold.sty
 Package: beamerfontthemestructurebold 2010/06/17  (rcs-revision d02a7cf4d8ae)
 )) (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count153
+\lst@mode=\count154
 \lst@gtempboxa=\box53
 \lst@token=\toks43
-\lst@length=\count154
+\lst@length=\count155
 \lst@currlwidth=\dimen188
-\lst@column=\count155
-\lst@pos=\count156
+\lst@column=\count156
+\lst@pos=\count157
 \lst@lostspace=\dimen189
 \lst@width=\dimen190
-\lst@newlines=\count157
-\lst@lineno=\count158
+\lst@newlines=\count158
+\lst@lineno=\count159
 \lst@maxwidth=\dimen191
 
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2014/09/06 1.5e (Carsten Heinz)
-\c@lstnumber=\count159
-\lst@skipnumbers=\count160
+\c@lstnumber=\count160
+\lst@skipnumbers=\count161
 \lst@framebox=\box54
 )
 (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
@@ -866,16 +871,16 @@ File: ot1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count161
+\scratchcounter=\count162
 \scratchdimen=\dimen192
 \scratchbox=\box55
-\nofMPsegments=\count162
-\nofMParguments=\count163
+\nofMPsegments=\count163
+\nofMParguments=\count164
 \everyMPshowfont=\toks44
-\MPscratchCnt=\count164
+\MPscratchCnt=\count165
 \MPscratchDim=\dimen193
-\MPnumerator=\count165
-\makeMPintoPDFobject=\count166
+\MPnumerator=\count166
+\makeMPintoPDFobject=\count167
 \everyMPtoPDFconversion=\toks45
 ) ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box56
@@ -887,7 +892,7 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count167
+\c@section@level=\count168
 )
 LaTeX Info: Redefining \ref on input line 60.
 LaTeX Info: Redefining \pageref on input line 60.
@@ -969,7 +974,7 @@ orem-dictionary/translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
 LaTeX Info: Redefining \includegraphics on input line 60.
-\c@lstlisting=\count168
+\c@lstlisting=\count169
  (./data_beers.nav)
 LaTeX Font Info:    Try loading font information for OML+lmm on input line 74.
 
@@ -1015,7 +1020,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <5> not available
 (Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 74.
 
-<intro2.png, id=41, 605.26125pt x 375.65344pt>
+<intro2.png, id=42, 605.26125pt x 375.65344pt>
 File: intro2.png Graphic file (type png)
  <use intro2.png>
 Package pdftex.def Info: intro2.png used on input line 74.
@@ -1024,330 +1029,184 @@ Package pdftex.def Info: intro2.png used on input line 74.
 
  <./intro2.png>]
 LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <10> not available
-(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 102.
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 101.
 
 
-<love.jpg, id=64, 552.0625pt x 552.0625pt>
+<love.jpg, id=65, 552.0625pt x 552.0625pt>
 File: love.jpg Graphic file (type jpg)
  <use love.jpg>
-Package pdftex.def Info: love.jpg used on input line 102.
+Package pdftex.def Info: love.jpg used on input line 101.
 (pdftex.def)             Requested size: 92.1879pt x 92.18147pt.
 LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <14.4> not available
-(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 102.
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 101.
 
  [2
 
  <./love.jpg>]
-File: love.jpg Graphic file (type jpg)
-
-<use love.jpg>
-Package pdftex.def Info: love.jpg used on input line 102.
-(pdftex.def)             Requested size: 92.1879pt x 92.18147pt.
+<bigdata2.png, id=79, 633.11531pt x 423.08063pt>
+File: bigdata2.png Graphic file (type png)
+ <use bigdata2.png>
+Package pdftex.def Info: bigdata2.png used on input line 130.
+(pdftex.def)             Requested size: 153.64493pt x 102.67116pt.
  [3
 
-]
-File: love.jpg Graphic file (type jpg)
- <use love.jpg>
-Package pdftex.def Info: love.jpg used on input line 102.
-(pdftex.def)             Requested size: 92.1879pt x 92.18147pt.
- [4
+ <./bigdata2.png>] [4
 
-]
-<bigdata1.png, id=96, 633.11531pt x 423.08063pt>
-File: bigdata1.png Graphic file (type png)
- <use bigdata1.png>
-Package pdftex.def Info: bigdata1.png used on input line 115.
-(pdftex.def)             Requested size: 122.91406pt x 82.13564pt.
- [5
-
- <./bigdata1.png>]
-File: bigdata1.png Graphic file (type png)
- <use bigdata1.png>
-Package pdftex.def Info: bigdata1.png used on input line 115.
-(pdftex.def)             Requested size: 122.91406pt x 82.13564pt.
- [6
-
-]
-File: bigdata1.png Graphic file (type png)
- <use bigdata1.png>
-Package pdftex.def Info: bigdata1.png used on input line 115.
-(pdftex.def)             Requested size: 122.91406pt x 82.13564pt.
- [7
-
-]
-<bigdata2.png, id=126, 633.11531pt x 423.08063pt>
-File: bigdata2.png Graphic file (type png)
- <use bigdata2.png>
-Package pdftex.def Info: bigdata2.png used on input line 133.
-(pdftex.def)             Requested size: 153.64493pt x 102.67116pt.
- [8
-
- <./bigdata2.png>]
-File: bigdata2.png Graphic file (type png)
- <use bigdata2.png>
-Package pdftex.def Info: bigdata2.png used on input line 133.
-(pdftex.def)             Requested size: 153.64493pt x 102.67116pt.
- [9
-
-]
-File: bigdata2.png Graphic file (type png)
- <use bigdata2.png>
-Package pdftex.def Info: bigdata2.png used on input line 133.
-(pdftex.def)             Requested size: 153.64493pt x 102.67116pt.
- [10
-
-]
-<Cluster_analysis.png, id=155, 289.08pt x 216.81pt>
-File: Cluster_analysis.png Graphic file (type png)
- <use Cluster_analysis.png>
-Package pdftex.def Info: Cluster_analysis.png used on input line 153.
-(pdftex.def)             Requested size: 122.9164pt x 92.18437pt.
-
-[11
-
- <./Cluster_analysis.png>]
-File: Cluster_analysis.png Graphic file (type png)
- <use Cluster_analysis.png>
-Package pdftex.def Info: Cluster_analysis.png used on input line 153.
-(pdftex.def)             Requested size: 122.9164pt x 92.18437pt.
- [12
-
-]
+] <Cluster_analysis.png, id=99, 289.08pt x 216.81pt>
 File: Cluster_analysis.png Graphic file (type png)
 
 <use Cluster_analysis.png>
-Package pdftex.def Info: Cluster_analysis.png used on input line 153.
+Package pdftex.def Info: Cluster_analysis.png used on input line 159.
 (pdftex.def)             Requested size: 122.9164pt x 92.18437pt.
- [13
+ [5
 
-]
-<elki_dbscan_003_250.png, id=186, 572.89032pt x 442.56062pt>
+ <./Cluster_analysis.png>]
+<elki_dbscan_003_250.png, id=111, 572.89032pt x 442.56062pt>
 File: elki_dbscan_003_250.png Graphic file (type png)
 
 <use elki_dbscan_003_250.png>
-Package pdftex.def Info: elki_dbscan_003_250.png used on input line 175.
+Package pdftex.def Info: elki_dbscan_003_250.png used on input line 184.
 (pdftex.def)             Requested size: 153.64493pt x 118.68936pt.
- [14
+ [6
 
  <./elki_dbscan_003_250.png>]
-File: elki_dbscan_003_250.png Graphic file (type png)
-
-<use elki_dbscan_003_250.png>
-Package pdftex.def Info: elki_dbscan_003_250.png used on input line 175.
-(pdftex.def)             Requested size: 153.64493pt x 118.68936pt.
- [15
-
-]
-File: elki_dbscan_003_250.png Graphic file (type png)
- <use elki_dbscan_003_250.png>
-Package pdftex.def Info: elki_dbscan_003_250.png used on input line 175.
-(pdftex.def)             Requested size: 153.64493pt x 118.68936pt.
- [16
-
-]
-File: elki_dbscan_003_250.png Graphic file (type png)
-
-<use elki_dbscan_003_250.png>
-Package pdftex.def Info: elki_dbscan_003_250.png used on input line 175.
-(pdftex.def)             Requested size: 153.64493pt x 118.68936pt.
- [17
-
-]
-File: elki_dbscan_003_250.png Graphic file (type png)
- <use elki_dbscan_003_250.png>
-Package pdftex.def Info: elki_dbscan_003_250.png used on input line 175.
-(pdftex.def)             Requested size: 153.64493pt x 118.68936pt.
- [18
-
-]
-<elki_dbscan_005_500.png, id=232, 572.89032pt x 442.56062pt>
+<elki_dbscan_005_500.png, id=121, 572.89032pt x 442.56062pt>
 File: elki_dbscan_005_500.png Graphic file (type png)
 
 <use elki_dbscan_005_500.png>
-Package pdftex.def Info: elki_dbscan_005_500.png used on input line 195.
+Package pdftex.def Info: elki_dbscan_005_500.png used on input line 204.
 (pdftex.def)             Requested size: 153.64493pt x 118.68936pt.
 
-<elki_dbscan_002_500.png, id=233, 572.89032pt x 442.56062pt>
+<elki_dbscan_002_500.png, id=122, 572.89032pt x 442.56062pt>
 File: elki_dbscan_002_500.png Graphic file (type png)
 
 <use elki_dbscan_002_500.png>
-Package pdftex.def Info: elki_dbscan_002_500.png used on input line 195.
+Package pdftex.def Info: elki_dbscan_002_500.png used on input line 204.
 (pdftex.def)             Requested size: 153.64493pt x 118.68936pt.
- [19
+ [7
 
- <./elki_dbscan_005_500.png> <./elki_dbscan_002_500.png>] [20
+ <./elki_dbscan_005_500.png> <./elki_dbscan_002_500.png>] [8
 
-] [21
-
-] [22
-
-] [23
-
-] [24
-
-] [25
-
-] [26
-
-]
-<dendrogram.png, id=308, 351.3125pt x 342.27875pt>
+] <dendrogram.png, id=142, 351.3125pt x 342.27875pt>
 File: dendrogram.png Graphic file (type png)
- <use dendrogram.png>
-Package pdftex.def Info: dendrogram.png used on input line 230.
-(pdftex.def)             Requested size: 122.91406pt x 119.75233pt.
 
-[27
+<use dendrogram.png>
+Package pdftex.def Info: dendrogram.png used on input line 239.
+(pdftex.def)             Requested size: 122.91406pt x 119.75233pt.
+ [9
 
  <./dendrogram.png>]
-File: dendrogram.png Graphic file (type png)
- <use dendrogram.png>
-Package pdftex.def Info: dendrogram.png used on input line 230.
-(pdftex.def)             Requested size: 122.91406pt x 119.75233pt.
- [28
-
-]
-<2000_025_100_w_removal.png, id=328, 604.50844pt x 461.93196pt>
+<2000_025_100_w_removal.png, id=153, 604.50844pt x 461.93196pt>
 File: 2000_025_100_w_removal.png Graphic file (type png)
 
 <use 2000_025_100_w_removal.png>
-Package pdftex.def Info: 2000_025_100_w_removal.png used on input line 243.
+Package pdftex.def Info: 2000_025_100_w_removal.png used on input line 252.
 (pdftex.def)             Requested size: 153.64493pt x 117.40694pt.
- [29
+ [10
 
  <./2000_025_100_w_removal.png>]
-File: 2000_025_100_w_removal.png Graphic file (type png)
-
-<use 2000_025_100_w_removal.png>
-Package pdftex.def Info: 2000_025_100_w_removal.png used on input line 243.
-(pdftex.def)             Requested size: 153.64493pt x 117.40694pt.
- [30
-
-]
-File: 2000_025_100_w_removal.png Graphic file (type png)
- <use 2000_025_100_w_removal.png>
-Package pdftex.def Info: 2000_025_100_w_removal.png used on input line 243.
-(pdftex.def)             Requested size: 153.64493pt x 117.40694pt.
- [31
-
-]
-<gis.PNG, id=357, 645.16031pt x 322.95656pt>
+<gis.PNG, id=163, 645.16031pt x 322.95656pt>
 File: gis.PNG Graphic file (type png)
  <use gis.PNG>
-Package pdftex.def Info: gis.PNG used on input line 261.
+Package pdftex.def Info: gis.PNG used on input line 270.
 (pdftex.def)             Requested size: 215.10196pt x 107.67491pt.
- [32
+ [11
 
  <./gis.PNG>]
-File: gis.PNG Graphic file (type png)
+<ww1.png, id=173, 532.99126pt x 469.755pt>
+File: ww1.png Graphic file (type png)
+ <use ww1.png>
+Package pdftex.def Info: ww1.png used on input line 283.
+(pdftex.def)             Requested size: 107.55333pt x 94.78798pt.
 
-<use gis.PNG>
-Package pdftex.def Info: gis.PNG used on input line 261.
-(pdftex.def)             Requested size: 215.10196pt x 107.67491pt.
- [33
+<ww2.png, id=174, 532.23843pt x 466.74374pt>
+File: ww2.png Graphic file (type png)
+ <use ww2.png>
+Package pdftex.def Info: ww2.png used on input line 283.
+(pdftex.def)             Requested size: 107.55333pt x 94.31567pt.
 
-]
-File: gis.PNG Graphic file (type png)
- <use gis.PNG>
-Package pdftex.def Info: gis.PNG used on input line 261.
-(pdftex.def)             Requested size: 215.10196pt x 107.67491pt.
- [34
+<ww3.png, id=175, 532.23843pt x 469.755pt>
+File: ww3.png Graphic file (type png)
+ <use ww3.png>
+Package pdftex.def Info: ww3.png used on input line 283.
+(pdftex.def)             Requested size: 107.55333pt x 94.92416pt.
 
-]
-<bluemarble.png, id=385, 1088.56688pt x 562.35094pt>
-File: bluemarble.png Graphic file (type png)
- <use bluemarble.png>
-Package pdftex.def Info: bluemarble.png used on input line 274.
-(pdftex.def)             Requested size: 215.10196pt x 111.121pt.
+Overfull \hbox (15.37012pt too wide) in paragraph at lines 283--283
+[][][]  
+ []
 
-[35
+[12
 
- <./bluemarble.png>]
-File: bluemarble.png Graphic file (type png)
- <use bluemarble.png>
-Package pdftex.def Info: bluemarble.png used on input line 274.
-(pdftex.def)             Requested size: 215.10196pt x 111.121pt.
- [36
-
-]
-<flowchart.png, id=405, 527.9725pt x 319.1925pt>
+ <./ww1.png (PNG copy)> <./ww2.png (PNG copy)> <./ww3.png (PNG copy)>]
+<flowchart.png, id=185, 527.9725pt x 319.1925pt>
 File: flowchart.png Graphic file (type png)
  <use flowchart.png>
-Package pdftex.def Info: flowchart.png used on input line 293.
+Package pdftex.def Info: flowchart.png used on input line 302.
 (pdftex.def)             Requested size: 184.3758pt x 111.46577pt.
- [37
+ [13
 
- <./flowchart.png (PNG copy)>]
-File: flowchart.png Graphic file (type png)
- <use flowchart.png>
-Package pdftex.def Info: flowchart.png used on input line 293.
-(pdftex.def)             Requested size: 184.3758pt x 111.46577pt.
- [38
-
-]
-File: flowchart.png Graphic file (type png)
- <use flowchart.png>
-Package pdftex.def Info: flowchart.png used on input line 293.
-(pdftex.def)             Requested size: 184.3758pt x 111.46577pt.
- [39
-
-]
-<sim1b.png, id=434, 596.2275pt x 466.74374pt>
+ <./flowchart.png (PNG copy)>] <sim1b.png, id=196, 596.2275pt x 466.74374pt>
 File: sim1b.png Graphic file (type png)
- <use sim1b.png>
-Package pdftex.def Info: sim1b.png used on input line 321.
-(pdftex.def)             Requested size: 153.64493pt x 120.2751pt.
 
-<sim6.png, id=435, 601.4972pt x 470.50781pt>
+<use sim1b.png>
+Package pdftex.def Info: sim1b.png used on input line 323.
+(pdftex.def)             Requested size: 153.64493pt x 120.2751pt.
+ <sim6.png, id=197, 601.4972pt x 470.50781pt>
 File: sim6.png Graphic file (type png)
  <use sim6.png>
-Package pdftex.def Info: sim6.png used on input line 321.
+Package pdftex.def Info: sim6.png used on input line 323.
 (pdftex.def)             Requested size: 153.64493pt x 120.18251pt.
- [40
+
+[14
 
  <./sim1b.png> <./sim6.png>]
-<250_035_11_w_p_catalunyal.png, id=445, 596.78629pt x 520.04597pt>
+<250_035_11_w_p_catalunyal.png, id=207, 596.78629pt x 520.04597pt>
 File: 250_035_11_w_p_catalunyal.png Graphic file (type png)
 
 <use 250_035_11_w_p_catalunyal.png>
-Package pdftex.def Info: 250_035_11_w_p_catalunyal.png used on input line 328.
+Package pdftex.def Info: 250_035_11_w_p_catalunyal.png used on input line 330.
 (pdftex.def)             Requested size: 215.10196pt x 187.43858pt.
- [41
+ [15
 
  <./250_035_11_w_p_catalunyal.png>]
-<case_study.png, id=455, 1088.56688pt x 562.35094pt>
+<case_study.png, id=217, 1088.56688pt x 562.35094pt>
 File: case_study.png Graphic file (type png)
  <use case_study.png>
-Package pdftex.def Info: case_study.png used on input line 340.
+Package pdftex.def Info: case_study.png used on input line 342.
 (pdftex.def)             Requested size: 307.28987pt x 158.7443pt.
 
-[42
+[16
 
- <./case_study.png>] [43
+ <./case_study.png>] [17
 
-] [44
+] <both.png, id=237, 1028.34187pt x 551.81157pt>
+File: both.png Graphic file (type png)
 
-] [45
+<use both.png>
+Package pdftex.def Info: both.png used on input line 374.
+(pdftex.def)             Requested size: 215.10196pt x 115.42075pt.
+ [18
 
-] [46
+ <./both.png>]
+<bluemarble.png, id=247, 1088.56688pt x 562.35094pt>
+File: bluemarble.png Graphic file (type png)
+ <use bluemarble.png>
+Package pdftex.def Info: bluemarble.png used on input line 392.
+(pdftex.def)             Requested size: 215.10196pt x 111.121pt.
 
-] [47
+[19
 
-] [48
-
-] [49
-
-]
-<end.jpg, id=530, 1284.8pt x 722.7pt>
+ <./bluemarble.png>] <end.jpg, id=259, 1284.8pt x 722.7pt>
 File: end.jpg Graphic file (type jpg)
  <use end.jpg>
-Package pdftex.def Info: end.jpg used on input line 376.
+Package pdftex.def Info: end.jpg used on input line 401.
 (pdftex.def)             Requested size: 184.3758pt x 103.7026pt.
-LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 376
+LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 401
 .
 
 (/usr/share/texmf/tex/latex/lm/ot1lmtt.fd
 File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [50
+) [20
 
  <./end.jpg>]
 \tf@nav=\write6
@@ -1359,32 +1218,32 @@ File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 \tf@snm=\write8
 \openout8 = `data_beers.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 378.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 378.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 403.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 403.
  (./data_beers.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 378.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 378.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 403.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 403.
 Package rerunfilecheck Info: File `data_beers.out' has not changed.
 (rerunfilecheck)             Checksum: 24D9A8D21298884F42D55794989A66E2;206.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 378.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 403.
  ) 
 Here is how much of TeX's memory you used:
- 18114 strings out of 495024
- 343193 string characters out of 6181546
- 425606 words of memory out of 5000000
- 20765 multiletter control sequences out of 15000+600000
- 55519 words of font info for 51 fonts, out of 8000000 for 9000
+ 18161 strings out of 495024
+ 344546 string characters out of 6181546
+ 427220 words of memory out of 5000000
+ 20865 multiletter control sequences out of 15000+600000
+ 52804 words of font info for 50 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 48i,19n,57p,496b,976s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 48i,19n,57p,496b,972s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-rmtt.enc}{/usr/share/texmf/fonts/enc/
 dvips/lm/lm-rm.enc}</usr/share/texmf/fonts/type1/public/lm/lmss10.pfb></usr/sha
 re/texmf/fonts/type1/public/lm/lmss12.pfb></usr/share/texmf/fonts/type1/public/
 lm/lmss8.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/t
 exmf/fonts/type1/public/lm/lmsso10.pfb></usr/share/texmf/fonts/type1/public/lm/
 lmsso12.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb>
-Output written on data_beers.pdf (50 pages, 11931179 bytes).
+Output written on data_beers.pdf (20 pages, 13466228 bytes).
 PDF statistics:
- 593 PDF objects out of 1000 (max. 8388607)
- 105 named destinations out of 1000 (max. 500000)
- 207 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 309 PDF objects out of 1000 (max. 8388607)
+ 45 named destinations out of 1000 (max. 500000)
+ 226 words of extra memory for PDF output out of 10000 (max. 10000000)
 
